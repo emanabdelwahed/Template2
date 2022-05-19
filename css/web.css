@@ -1,0 +1,754 @@
+body{
+    height: 2000px;
+    font-family:'Times New Roman', Times, serif;
+    
+}   
+.parent {
+    width: 100%;
+    height: 60px;
+}
+
+.parent-img{
+    float: left;
+   margin-left: 130px ;
+   margin-top: 80px;
+   
+}
+.parent-name{
+    font-size: 50px;
+    
+    
+}
+.parent-list {
+    list-style: none;
+    float: right;
+    margin-right: 100px;
+    margin-top: 90px;
+
+}
+
+.parent-ul:hover{
+color: rgb(226, 135, 15);
+transition: 1s;
+}
+
+li {
+    display: inline;
+    margin: 0px  15px ;
+ }
+.parent-ul{
+    text-decoration: none;
+    color:brown;
+    font-size: 20px;
+    font-weight: bold;
+}
+i{
+    font-size: 20px;
+    margin-right: 20px;
+}
+.list-para{
+    font-size: 20px;
+}
+.home{
+    background-image:url(../images/main-banner-1-1600x700.jpg);
+    height: 80vh;
+    background-position:cover;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.furniture-title{
+text-align: center;
+font-size: 40px;
+margin-bottom: 20px;
+
+}
+.furniture-line{
+    display: block;
+    background-color: rgb(110, 77, 33);
+    width: 100px;
+    margin: auto;
+    height: 2px; 
+    transition: 1s;
+}
+.container{
+    margin-top: 30px;
+}
+.furniture-line:hover{
+    transform: scalex(2);
+}
+.furniture1{
+    float: left;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.furniture1-img{
+width: 250px;
+height: 250px;
+}
+.furniture1-title{
+    color: grey;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.furniture1-note{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.furniture1-icon{
+    width: 20px;
+    height: 20px ;
+    background-color: brown;
+    color: white;
+    display: inline-block;
+    padding: 5px 5px;
+    display: none;
+    visibility: hidden;
+
+}
+.furniture1:hover  .furniture1-icon {
+    display: inline-block;
+    visibility: visible;
+}
+.furniture1-icon-anagle   {
+    font-size: 20px;
+    font-weight:lighter;
+}
+.furniture2{
+float: left;
+margin: 20px 10px;
+
+}
+.furniture2-img{
+    width: 250px;
+    height: 250px;
+    }
+.furniture2-title{
+    color: grey;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.furniture2-note{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.furniture2-icon{
+    width: 20px;
+    height: 20px ;
+    background-color: brown;
+    color: white;
+    display: inline-block;
+    padding: 5px 5px;
+    display: none;
+    visibility: hidden;
+
+}
+.furniture2:hover  .furniture2-icon {
+    display: inline-block;
+    visibility: visible;
+}
+.furniture2-icon-anagle   {
+    font-size: 20px;
+    font-weight:lighter;
+}
+.furniture3{
+    float: left;
+    margin: 20px 10px;
+
+    }
+    .furniture3-img{
+        width: 250px;
+        height: 250px;
+        }
+    .furniture3-title{
+        color: grey;
+        font-weight: lighter;
+        margin-bottom: 0px;
+        font-size: 20px;
+    }
+    
+    .furniture3-note{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .furniture3-icon{
+        width: 20px;
+        height: 20px ;
+        background-color: brown;
+        color: white;
+        display: inline-block;
+        padding: 5px 5px;
+        display: none;
+        visibility: hidden;
+    
+    }
+    .furniture3:hover  .furniture3-icon {
+        display: inline-block;
+        visibility: visible;
+    }
+    .furniture3-icon-anagle   {
+        font-size: 20px;
+        font-weight:lighter;
+    }
+    .furniture4{
+        float: left;
+        margin: 20px 10px;
+        }
+        .furniture4-img{
+            width: 250px;
+            height: 250px;
+            }
+        .furniture4-title{
+            color: grey;
+            font-weight: lighter;
+            margin-bottom: 0px;
+            font-size: 20px;
+        }
+        
+        .furniture4-note{
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        .furniture4-icon{
+            width: 20px;
+            height: 20px ;
+            background-color: brown;
+            color: white;
+            display: inline-block;
+            padding: 5px 5px;
+            display: none;
+            visibility: hidden;
+        
+        }
+        .furniture4:hover  .furniture4-icon {
+            display: inline-block;
+            visibility: visible;
+        }
+        .furniture4-icon-anagle   {
+            font-size: 20px;
+            font-weight:lighter;
+        } 
+.aboutwebsite-info{
+    width: 535px;
+    height: 280px;
+    margin-left: 140px;
+    margin-top: 50px;
+    background-color: rgba(221, 160, 221, 0.151);
+    float: left;
+}        
+.aboutwebsite-icon{
+    color: rgb(110, 77, 33);
+    font-size: 45px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.aboutwebsite-title{
+    font-size: 35px;
+}
+.aboutwebsite-note{
+    display: block;
+    margin-left: 90px;
+}
+.aboutwebsite-paragraph{
+    font-size:20px ;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.aboutwebsite-line1{
+    display:block; 
+    background-color: rgb(110, 77, 33);
+    width: 50px;
+    margin-left: 480px;
+    height: 2px; 
+    float:left
+}
+.aboutwebsite-line2{
+    display:block; 
+    background-color: rgb(110, 77, 33);
+    width: 50px;
+    margin-left: 400px;
+    height: 2px; 
+    float: left;
+}
+.aboutwebsite-line3{
+    display:block; 
+    background-color: rgb(110, 77, 33);
+    width: 50px;
+    margin-left: 320px;
+    height: 2px; 
+    float: left;
+}
+.aboutwebsite-img1-info{
+float: left;
+background-image: url(../images/cms-banner-1.jpg);
+height: 100vh;
+width: 300px;
+background-position:cover;
+background-size:260px;
+background-repeat:no-repeat;
+margin-left: 30px;
+margin-top: 50px;
+transition: 1s;
+}
+.aboutwebsite-img1-info:hover{
+    transform:scale(1.1 , 1.1);
+}
+.aboutwebsite-img1-title{
+    color: brown;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+.aboutwebsite-img1-para{
+    font-weight:bold;
+    font-size: 25px;
+}
+.aboutwebsite-img2-info{
+    float: left;
+    background-image: url(../images/cms-banner-2.jpg);
+    height: 100vh;
+    width: 300px;
+    background-position:cover;
+    background-size:260px;
+    background-repeat:no-repeat;
+    margin-top: 50px;
+    transition: 1s;
+    
+ }
+ .aboutwebsite-img2-info:hover{
+    transform: scale(1.1, 1.1);
+   }
+    .aboutwebsite-img2-title{
+        color: brown;
+        font-weight: lighter;
+        margin-bottom: 0px;
+    }
+    .aboutwebsite-img2-para{
+        font-weight:bold;
+        font-size: 25px;
+    }
+
+
+.aboutwebsite-info-footer-icon1{
+    padding:100px 10px;
+    padding-left: 100px;
+    margin: auto;
+    float: left;
+}
+.icon-ship{
+font-size: 30px;
+color: grey;
+margin-left: 60px;
+transition: 2s;
+}
+.aboutwebsite-info-footer-icon1-title{
+margin-left: 10px; 
+margin-bottom: 0px;
+}
+.aboutwebsite-info-footer-icon1-para{
+    margin-right: 10px; 
+ color: grey;
+}
+.aboutwebsite-info-footer-icon1:hover .icon-ship{
+    color: brown;
+}
+.aboutwebsite-info-footer-icon2{
+    padding: 100px 10px;
+    margin: auto;
+    float: left;
+}
+.icon-piggy{
+font-size: 30px;
+color: grey;
+margin-left: 60px;
+transition: 2s;
+}
+.aboutwebsite-info-footer-icon2-title{
+    margin-left: 10px; 
+    margin-bottom: 0px;
+    }
+.aboutwebsite-info-footer-icon2-para{
+     margin-right: 10px; 
+     color: grey;
+}
+.aboutwebsite-info-footer-icon2:hover .icon-piggy{
+    color: brown;
+}
+.aboutwebsite-info-footer-icon3{
+    padding: 100px 10px;
+    margin: auto;
+    float: left;
+}
+.icon-headset{
+font-size: 30px;
+margin-left: 60px;
+color: grey;
+transition: 2s;
+}
+.aboutwebsite-info-footer-icon3-title{
+    margin-left: 10px; 
+    margin-bottom: 0px;
+    }
+    .aboutwebsite-info-footer-icon3-para{
+        margin-right: 10px; 
+     color: grey;
+    }
+.aboutwebsite-info-footer-icon3:hover .icon-headset{
+        color: brown;
+}
+.aboutwebsite-info-footer-icon4{
+    padding: 100px 10px;
+    margin: auto;
+    float: left;
+}
+.icon-percent{
+font-size: 30px;
+color: grey;
+margin-left: 60px;
+transition: 2s;
+}
+.aboutwebsite-info-footer-icon4-title{
+    margin-left: 10px; 
+    margin-bottom: 0px;
+}
+ .aboutwebsite-info-footer-icon4-para{
+    margin-right: 10px; 
+    color: grey;
+}
+.aboutwebsite-info-footer-icon4:hover .icon-percent{
+    color: brown;
+}
+.aboutwebsite-info-footer-icon5{
+    padding: 100px 10px;
+    margin:auto;
+    float: left;
+}
+.icon-undo{
+font-size: 30px;
+color: grey;
+margin-left: 60px;
+transition: 2s;
+}
+.aboutwebsite-info-footer-icon5-title{
+    margin-left: 10px; 
+    margin-bottom: 0px;
+}
+.aboutwebsite-info-footer-icon5-para{
+    margin-right: 10px; 
+    color: grey;
+}
+.aboutwebsite-info-footer-icon5:hover .icon-undo{
+    color: brown;
+}
+.verticleline{
+    display: inline;
+    font-size: 100px;
+    color:brown;
+}
+.verticle{
+    margin: auto;
+    margin-top: 100px;
+    float: left; 
+}
+.horizontal-line{
+    display:block; 
+    background-color: brown;
+    width: 1200px;
+    height: 4px; 
+    float: left;
+    margin-left: 40px;
+    transform: translateY(-70px);
+}
+.aboutwebsite{
+    margin-top: 500px;
+    height: 50vh;
+
+}
+.aboutwebsite-info-footer{
+    transform: translatey(-300px);
+    margin-left: 60px;
+    }
+    .products{
+        transform: translatey(-100px);  
+    }
+.products-title{
+     text-align: center;
+     font-size: 40px;
+     margin-bottom: 10px;       
+}
+.products-line{
+     display: block;
+     background-color: rgb(110, 77, 33);
+     width: 100px;
+     margin: auto;
+     height: 2px; 
+     transition: 0.5s;
+}   
+.products-line:hover{
+    transform:scaleX(2);
+}
+.products-list{
+   margin-left: 360px;
+   font-size: 20px;
+   margin-top: 30px;
+}
+
+.product1{
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    position: relative;
+}
+.product1::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    transition: 1s;
+    width: 100%;
+    height: 0;
+    background-image: url(../images/chair6.jpg) ;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.product1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+} 
+
+.product2{
+    float: left;
+    margin: 20px 10px;
+    position: relative;
+}
+.product2::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    transition: 1s;
+    width: 100%;
+    height: 0;
+    background-image: url(../images/chair3.jpg) ;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.product2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.product3{
+    float: left;
+    margin: 20px 10px;
+    position: relative;
+}
+.product3::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    transition: 1s;
+    width: 100%;
+    height: 0;
+    background-image: url(../images/chair5.jpg) ;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.product3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.product4{
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    position: relative;
+}
+.product4::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    transition: 1s;
+    width: 100%;
+    height: 0;
+    background-image: url(../images/chair2.jpg) ;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.product4:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.product5{
+    float: left;
+    margin: 20px 10px;
+    position: relative;
+
+}
+.product5::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    transition: 1s;
+    width: 100%;
+    height: 0;
+    background-image: url(../images/category-banner3.jpg) ;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.product5:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.product6{
+    float: left;
+    margin: 20px 10px;
+    position: relative;
+}
+.product6::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    transition: 1s;
+    width: 100%;
+    height: 0;
+    background-image: url(../images/chair5.jpg) ;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.product6:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity:0.5;
+}
+
+.perfect-star{
+    color: yellow;
+}
+.product1-price{
+    font-size: 30px;
+   
+}
+.links{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.product2:hover .links{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+ 
+}
+.product1:hover .links{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+}
+.product3:hover .links{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+}
+.product4:hover .links{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+}
+.product5:hover .links{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+}
+.product6:hover .links{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+ 
+}
+.links .facebook-icon{
+    width: 25px;
+    height: 30px;
+    font-size: 30px; 
+    padding: 5px 5px;
+    float: left;
+    background-color:rgb(148, 109, 57);
+    color: white;
+    margin-top: 200px;
+    margin-right: 5px;
+    margin-left: 100px;
+}
+.links .linkedin-icon{
+    width: 25px;
+    height: 30px;
+    font-size: 30px; 
+    padding: 5px 5px;
+    float: left;
+    background-color:rgb(148, 109, 57);
+    color: white;
+    margin-top: 200px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.links .twitter-icon{
+    width: 25px;
+    height: 30px;
+    font-size: 30px; 
+    padding: 5px 5px;
+    float: left;
+    background-color:rgb(148, 109, 57);
+    color: white;
+    margin-top: 200px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.links .instagram-icon{
+    width: 25px;
+    height: 30px;
+    font-size: 30px; 
+    padding: 5px 5px;
+    float: left;
+    background-color:rgb(148, 109, 57);
+    color: white;
+    margin-top: 200px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.links .facebook{
+    font-size: 30px;
+}
+.links .linkedin{
+    font-size: 30px;
+}
+.links .twitter{
+    font-size: 30px;
+}
+.links .instagram{
+    font-size: 30px;
+}
