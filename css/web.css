@@ -1,754 +1,396 @@
-body{
-    height: 2000px;
-    font-family:'Times New Roman', Times, serif;
-    
-}   
-.parent {
-    width: 100%;
-    height: 60px;
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
-
-.parent-img{
-    float: left;
-   margin-left: 130px ;
-   margin-top: 80px;
-   
+body {
+    height: 2950px;
+    font-family: "pt-sans",sans-serif;
 }
-.parent-name{
-    font-size: 50px;
-    
-    
+:root{
+    --maincolor:#7b5244;
+    --subcolor:#333;
 }
-.parent-list {
+.container {
+    width: 80%;
+    margin: auto;
+}
+.list-unstyled {
     list-style: none;
-    float: right;
-    margin-right: 100px;
-    margin-top: 90px;
-
 }
-
-.parent-ul:hover{
-color: rgb(226, 135, 15);
-transition: 1s;
-}
-
-li {
-    display: inline;
-    margin: 0px  15px ;
- }
-.parent-ul{
+a {
     text-decoration: none;
-    color:brown;
-    font-size: 20px;
-    font-weight: bold;
 }
-i{
-    font-size: 20px;
-    margin-right: 20px;
+.section-padding {
+    padding: 40px 0;
 }
-.list-para{
-    font-size: 20px;
+.section-header {
+    text-align: center;
+    margin-bottom: 25px;
 }
-.home{
-    background-image:url(../images/main-banner-1-1600x700.jpg);
-    height: 80vh;
-    background-position:cover;
-    background-size: 100%;
-    background-repeat:no-repeat;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 100px;
+.section-title{
+    font-size: 30px;
+    margin-bottom: 10px;
 }
-.furniture-title{
-text-align: center;
-font-size: 40px;
-margin-bottom: 20px;
-
-}
-.furniture-line{
+.section-header .line{
     display: block;
-    background-color: rgb(110, 77, 33);
     width: 100px;
     margin: auto;
-    height: 2px; 
-    transition: 1s;
+    height: 2px;
+    background-color: var(--maincolor);
+    transition: width .5s;
 }
-.container{
-    margin-top: 30px;
+.section-header:hover .line{
+    width: 150px;
 }
-.furniture-line:hover{
-    transform: scalex(2);
+/* HEADER................................................................................................... */
+header {
+    padding: 40px 0;
 }
-.furniture1{
-    float: left;
-    margin-left: 150px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 10px;
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.furniture1-img{
-width: 250px;
-height: 250px;
+.header-content img{
+flex: 1;
+max-width: 150px;
 }
-.furniture1-title{
-    color: grey;
-    font-weight: lighter;
-    margin-bottom: 0px;
-    font-size: 20px;
+.header-content nav{
+flex:3;
+text-align: center;
 }
-
-.furniture1-note{
-    font-size: 20px;
-    font-weight: bolder;
+.header-content  .login{
+flex:1;
+text-align: right;
 }
-.furniture1-icon{
-    width: 20px;
-    height: 20px ;
-    background-color: brown;
-    color: white;
+.header-content ul li {
     display: inline-block;
-    padding: 5px 5px;
-    display: none;
-    visibility: hidden;
-
 }
-.furniture1:hover  .furniture1-icon {
-    display: inline-block;
-    visibility: visible;
+.header-content ul li a , .header-content ul li a{
+    color:var(--maincolor);
 }
-.furniture1-icon-anagle   {
-    font-size: 20px;
-    font-weight:lighter;
-}
-.furniture2{
-float: left;
-margin: 20px 10px;
-
-}
-.furniture2-img{
-    width: 250px;
-    height: 250px;
-    }
-.furniture2-title{
-    color: grey;
-    font-weight: lighter;
-    margin-bottom: 0px;
-    font-size: 20px;
-}
-
-.furniture2-note{
-    font-size: 20px;
-    font-weight: bolder;
-}
-.furniture2-icon{
-    width: 20px;
-    height: 20px ;
-    background-color: brown;
-    color: white;
-    display: inline-block;
-    padding: 5px 5px;
-    display: none;
-    visibility: hidden;
-
-}
-.furniture2:hover  .furniture2-icon {
-    display: inline-block;
-    visibility: visible;
-}
-.furniture2-icon-anagle   {
-    font-size: 20px;
-    font-weight:lighter;
-}
-.furniture3{
-    float: left;
-    margin: 20px 10px;
-
-    }
-    .furniture3-img{
-        width: 250px;
-        height: 250px;
-        }
-    .furniture3-title{
-        color: grey;
-        font-weight: lighter;
-        margin-bottom: 0px;
-        font-size: 20px;
-    }
-    
-    .furniture3-note{
-        font-size: 20px;
-        font-weight: bolder;
-    }
-    .furniture3-icon{
-        width: 20px;
-        height: 20px ;
-        background-color: brown;
-        color: white;
-        display: inline-block;
-        padding: 5px 5px;
-        display: none;
-        visibility: hidden;
-    
-    }
-    .furniture3:hover  .furniture3-icon {
-        display: inline-block;
-        visibility: visible;
-    }
-    .furniture3-icon-anagle   {
-        font-size: 20px;
-        font-weight:lighter;
-    }
-    .furniture4{
-        float: left;
-        margin: 20px 10px;
-        }
-        .furniture4-img{
-            width: 250px;
-            height: 250px;
-            }
-        .furniture4-title{
-            color: grey;
-            font-weight: lighter;
-            margin-bottom: 0px;
-            font-size: 20px;
-        }
-        
-        .furniture4-note{
-            font-size: 20px;
-            font-weight: bolder;
-        }
-        .furniture4-icon{
-            width: 20px;
-            height: 20px ;
-            background-color: brown;
-            color: white;
-            display: inline-block;
-            padding: 5px 5px;
-            display: none;
-            visibility: hidden;
-        
-        }
-        .furniture4:hover  .furniture4-icon {
-            display: inline-block;
-            visibility: visible;
-        }
-        .furniture4-icon-anagle   {
-            font-size: 20px;
-            font-weight:lighter;
-        } 
-.aboutwebsite-info{
-    width: 535px;
-    height: 280px;
-    margin-left: 140px;
-    margin-top: 50px;
-    background-color: rgba(221, 160, 221, 0.151);
-    float: left;
-}        
-.aboutwebsite-icon{
-    color: rgb(110, 77, 33);
-    font-size: 45px;
-    margin-top: 5px;
-    margin-left: 20px;
-}
-.aboutwebsite-title{
-    font-size: 35px;
-}
-.aboutwebsite-note{
+.header-content nav ul li .link-item {
+    position: relative;
+    padding: 10px 19px;
     display: block;
-    margin-left: 90px;
+    font-weight: bold;
+    position: relative;
 }
-.aboutwebsite-paragraph{
-    font-size:20px ;
-    margin-top: 20px;
-    margin-left: 20px;
+.header-content nav ul li .link-item:before,
+.header-content nav ul li .link-item:after{
+content:"";
+position: absolute;
+border-style: solid; 
+left: 0;
+top:0; 
+transition: transform 0.2s;
 }
-.aboutwebsite-line1{
-    display:block; 
-    background-color: rgb(110, 77, 33);
-    width: 50px;
-    margin-left: 480px;
-    height: 2px; 
-    float:left
+.header-content nav ul li .link-item:before{
+    border-width: 0 2px;
+    height: 100%; 
+    width: 95%;
+    transform: scale3d(1,0,1);
 }
-.aboutwebsite-line2{
-    display:block; 
-    background-color: rgb(110, 77, 33);
-    width: 50px;
-    margin-left: 400px;
-    height: 2px; 
-    float: left;
+.header-content nav ul li .link-item:hover:before{
+ transform: scale3d(1,1,1);
 }
-.aboutwebsite-line3{
-    display:block; 
-    background-color: rgb(110, 77, 33);
-    width: 50px;
-    margin-left: 320px;
-    height: 2px; 
-    float: left;
+.header-content nav ul li .link-item:after{
+border-width: 2px 0;
+height: 91%; 
+width: 98%;
+transform: scale3d(0,1,1);
+transform-origin: left;
 }
-.aboutwebsite-img1-info{
-float: left;
-background-image: url(../images/cms-banner-1.jpg);
-height: 100vh;
-width: 300px;
-background-position:cover;
-background-size:260px;
-background-repeat:no-repeat;
-margin-left: 30px;
-margin-top: 50px;
-transition: 1s;
+.header-content nav ul li .link-item:hover:after{
+ transform: scale3d(1,1,1);
+ transition-delay: .2s;
 }
-.aboutwebsite-img1-info:hover{
-    transform:scale(1.1 , 1.1);
+.header-content .login ul li  {
+    padding: 10px ;
+    font-weight: bold;
 }
-.aboutwebsite-img1-title{
-    color: brown;
-    font-weight: lighter;
-    margin-bottom: 0px;
+.header-content .login ul li:last-child i {
+ position: relative;
+ margin-right: 11px;
 }
-.aboutwebsite-img1-para{
-    font-weight:bold;
-    font-size: 25px;
+.header-content .login ul li:last-child i::after{
+    position: absolute;
+    content: "0";
+    background-color: var(--maincolor);
+    color: #fff;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 13px;
+    bottom: -4px;
 }
-.aboutwebsite-img2-info{
-    float: left;
-    background-image: url(../images/cms-banner-2.jpg);
-    height: 100vh;
-    width: 300px;
-    background-position:cover;
-    background-size:260px;
-    background-repeat:no-repeat;
-    margin-top: 50px;
-    transition: 1s;
-    
- }
- .aboutwebsite-img2-info:hover{
-    transform: scale(1.1, 1.1);
-   }
-    .aboutwebsite-img2-title{
-        color: brown;
-        font-weight: lighter;
-        margin-bottom: 0px;
-    }
-    .aboutwebsite-img2-para{
-        font-weight:bold;
-        font-size: 25px;
-    }
-
-
-.aboutwebsite-info-footer-icon1{
-    padding:100px 10px;
-    padding-left: 100px;
-    margin: auto;
-    float: left;
+/* DROPDOWN.................................................................................................... */
+.dropdown{
+position: relative;
 }
-.icon-ship{
-font-size: 30px;
-color: grey;
-margin-left: 60px;
-transition: 2s;
+.dropdown-menu{
+    position: absolute;
+    width: 450px;
+    border: 2px solid var(--maincolor);
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 5px;
+    transform: scale(0);
+    transition: transform 0.5s , visibility .5s;
+    opacity: 0;
+    visibility: hidden;
 }
-.aboutwebsite-info-footer-icon1-title{
-margin-left: 10px; 
-margin-bottom: 0px;
+.dropdown:hover .dropdown-menu{
+    transform: scale(1);
+    visibility: visible;
+    opacity: 1;
 }
-.aboutwebsite-info-footer-icon1-para{
-    margin-right: 10px; 
- color: grey;
+.dropdown-menu ul{
+    display: table-cell;
+    text-align: left;
 }
-.aboutwebsite-info-footer-icon1:hover .icon-ship{
-    color: brown;
+.dropdown-menu ul li:first-child a {
+    display: block;
+    border-bottom: 1px dotted var(--maincolor);
+    margin-bottom: 10px;
 }
-.aboutwebsite-info-footer-icon2{
-    padding: 100px 10px;
-    margin: auto;
-    float: left;
+.dropdown-menu ul li {
+    line-height: 1.7;
 }
-.icon-piggy{
-font-size: 30px;
-color: grey;
-margin-left: 60px;
-transition: 2s;
+/* SLIDER...................................................................................................... */
+section.slider img {
+    width: 100%;
 }
-.aboutwebsite-info-footer-icon2-title{
-    margin-left: 10px; 
-    margin-bottom: 0px;
-    }
-.aboutwebsite-info-footer-icon2-para{
-     margin-right: 10px; 
-     color: grey;
+/* CATEGORT.................................................................................................... */
+.category-items{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:10px;
 }
-.aboutwebsite-info-footer-icon2:hover .icon-piggy{
-    color: brown;
+.category-items img{
+    width: 100%;
+    margin-bottom: 25px;
 }
-.aboutwebsite-info-footer-icon3{
-    padding: 100px 10px;
-    margin: auto;
-    float: left;
+.category-item-subtitle{
+   color: gray;
+   font-weight: normal;
 }
-.icon-headset{
-font-size: 30px;
-margin-left: 60px;
-color: grey;
-transition: 2s;
+.category-item-title {
+    font-size: 19px;
 }
-.aboutwebsite-info-footer-icon3-title{
-    margin-left: 10px; 
-    margin-bottom: 0px;
-    }
-    .aboutwebsite-info-footer-icon3-para{
-        margin-right: 10px; 
-     color: grey;
-    }
-.aboutwebsite-info-footer-icon3:hover .icon-headset{
-        color: brown;
+.category-item {
+    position: relative;
 }
-.aboutwebsite-info-footer-icon4{
-    padding: 100px 10px;
-    margin: auto;
-    float: left;
-}
-.icon-percent{
-font-size: 30px;
-color: grey;
-margin-left: 60px;
-transition: 2s;
-}
-.aboutwebsite-info-footer-icon4-title{
-    margin-left: 10px; 
-    margin-bottom: 0px;
-}
- .aboutwebsite-info-footer-icon4-para{
-    margin-right: 10px; 
-    color: grey;
-}
-.aboutwebsite-info-footer-icon4:hover .icon-percent{
-    color: brown;
-}
-.aboutwebsite-info-footer-icon5{
-    padding: 100px 10px;
-    margin:auto;
-    float: left;
-}
-.icon-undo{
-font-size: 30px;
-color: grey;
-margin-left: 60px;
-transition: 2s;
-}
-.aboutwebsite-info-footer-icon5-title{
-    margin-left: 10px; 
-    margin-bottom: 0px;
-}
-.aboutwebsite-info-footer-icon5-para{
-    margin-right: 10px; 
-    color: grey;
-}
-.aboutwebsite-info-footer-icon5:hover .icon-undo{
-    color: brown;
-}
-.verticleline{
-    display: inline;
-    font-size: 100px;
-    color:brown;
-}
-.verticle{
-    margin: auto;
-    margin-top: 100px;
-    float: left; 
-}
-.horizontal-line{
-    display:block; 
+.category-item .icon{
+    width: 30px;
+    height: 30px;
     background-color: brown;
-    width: 1200px;
-    height: 4px; 
-    float: left;
-    margin-left: 40px;
-    transform: translateY(-70px);
-}
-.aboutwebsite{
-    margin-top: 500px;
-    height: 50vh;
-
-}
-.aboutwebsite-info-footer{
-    transform: translatey(-300px);
-    margin-left: 60px;
-    }
-    .products{
-        transform: translatey(-100px);  
-    }
-.products-title{
-     text-align: center;
-     font-size: 40px;
-     margin-bottom: 10px;       
-}
-.products-line{
-     display: block;
-     background-color: rgb(110, 77, 33);
-     width: 100px;
-     margin: auto;
-     height: 2px; 
-     transition: 0.5s;
-}   
-.products-line:hover{
-    transform:scaleX(2);
-}
-.products-list{
-   margin-left: 360px;
-   font-size: 20px;
-   margin-top: 30px;
-}
-
-.product1{
-    float: left;
-    margin-left: 80px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    position: relative;
-}
-.product1::after{
+    color: #fff;
+    text-align: center;
+    display: block;
+    line-height: 30px;
     position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    transition: 1s;
-    width: 100%;
-    height: 0;
-    background-image: url(../images/chair6.jpg) ;
-    background-repeat: no-repeat;
-    opacity: 0;
-}
-.product1:hover::after{
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-} 
-
-.product2{
-    float: left;
-    margin: 20px 10px;
-    position: relative;
-}
-.product2::after{
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    transition: 1s;
-    width: 100%;
-    height: 0;
-    background-image: url(../images/chair3.jpg) ;
-    background-repeat: no-repeat;
-    opacity: 0;
-}
-.product2:hover::after{
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-}
-.product3{
-    float: left;
-    margin: 20px 10px;
-    position: relative;
-}
-.product3::after{
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    transition: 1s;
-    width: 100%;
-    height: 0;
-    background-image: url(../images/chair5.jpg) ;
-    background-repeat: no-repeat;
-    opacity: 0;
-}
-.product3:hover::after{
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-}
-.product4{
-    float: left;
-    margin-left: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    position: relative;
-}
-.product4::after{
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    transition: 1s;
-    width: 100%;
-    height: 0;
-    background-image: url(../images/chair2.jpg) ;
-    background-repeat: no-repeat;
-    opacity: 0;
-}
-.product4:hover::after{
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-}
-.product5{
-    float: left;
-    margin: 20px 10px;
-    position: relative;
-
-}
-.product5::after{
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    transition: 1s;
-    width: 100%;
-    height: 0;
-    background-image: url(../images/category-banner3.jpg) ;
-    background-repeat: no-repeat;
-    opacity: 0;
-}
-.product5:hover::after{
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-}
-
-.product6{
-    float: left;
-    margin: 20px 10px;
-    position: relative;
-}
-.product6::after{
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    transition: 1s;
-    width: 100%;
-    height: 0;
-    background-image: url(../images/chair5.jpg) ;
-    background-repeat: no-repeat;
-    opacity: 0;
-}
-.product6:hover::after{
-    width: 100%;
-    height: 100%;
-    opacity:0.5;
-}
-
-.perfect-star{
-    color: yellow;
-}
-.product1-price{
-    font-size: 30px;
-   
-}
-.links{
-    position: absolute;
-    top: 0;
-    left: 0;
     bottom: 0;
     right: 0;
     visibility: hidden;
     opacity: 0;
+    transition: opacity 0.1;
 }
-.product2:hover .links{
+.category-item:hover .icon{
     visibility: visible;
     opacity: 1;
-    transition: 1s;
- 
 }
-.product1:hover .links{
-    visibility: visible;
-    opacity: 1;
-    transition: 1s;
+/* DISCOUNT................................................................................................... */
+.discount {
+    margin:30px 0;
+    display: flex;
 }
-.product3:hover .links{
-    visibility: visible;
-    opacity: 1;
-    transition: 1s;
+.discount-desc{
+    flex:2;
+    background: #f7f3ef;
+    padding: 20px;
+    position: relative;
 }
-.product4:hover .links{
-    visibility: visible;
-    opacity: 1;
-    transition: 1s;
+.discount-item {
+    flex: 1;
+    height: 300px;
+    position: relative;
 }
-.product5:hover .links{
-    visibility: visible;
-    opacity: 1;
-    transition: 1s;
+.discount-item-info{
+    position: absolute;
+    top:20px;
+    left: 15px;
 }
-.product6:hover .links{
-    visibility: visible;
-    opacity: 1;
-    transition: 1s;
- 
+.discount-item-info h3{
+    font-weight: normal;
+    color: var(--maincolor);
 }
-.links .facebook-icon{
-    width: 25px;
-    height: 30px;
-    font-size: 30px; 
-    padding: 5px 5px;
-    float: left;
-    background-color:rgb(148, 109, 57);
-    color: white;
-    margin-top: 200px;
-    margin-right: 5px;
-    margin-left: 100px;
+.discount-item-info h2{
+    font-size: 20px;
 }
-.links .linkedin-icon{
-    width: 25px;
-    height: 30px;
-    font-size: 30px; 
-    padding: 5px 5px;
-    float: left;
-    background-color:rgb(148, 109, 57);
-    color: white;
-    margin-top: 200px;
-    margin-right: 5px;
-    margin-left: 5px;
+.discount-item:nth-child(2){
+    background-image: url(../images/cms-banner-1.jpg);
+    background-size: cover;
+    margin:0 20px;
+    transition: transform 0.5s;
 }
-.links .twitter-icon{
-    width: 25px;
-    height: 30px;
-    font-size: 30px; 
-    padding: 5px 5px;
-    float: left;
-    background-color:rgb(148, 109, 57);
-    color: white;
-    margin-top: 200px;
-    margin-right: 5px;
-    margin-left: 5px;
+.discount-item:nth-child(2):hover{
+    transform: scale(1.1);
 }
-.links .instagram-icon{
-    width: 25px;
-    height: 30px;
-    font-size: 30px; 
-    padding: 5px 5px;
-    float: left;
-    background-color:rgb(148, 109, 57);
-    color: white;
-    margin-top: 200px;
-    margin-right: 5px;
-    margin-left: 5px;
+.discount-desc .top{
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+.discount-desc .top .icon{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 50px;
+    color: var(--maincolor);
+}
+.discount-desc .top +p{
+    line-height: 1.7;
+}
+.discount-desc .bullets span{
+     display: inline-block;
+     width:50px;
+     height: 2px;
+     background: var(--maincolor);
+     margin-left: 10px;
+}
+.discount-desc .bullets{
+    text-align: right;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+.discount-item:nth-child(3){
+    background-image: url(../images/cms-banner-2.jpg);
+    background-size: cover; 
+    transition: transform .5s;
+}
+.discount-item:nth-child(3):hover{
+    transform: scale(1.1);
+}
+/* SPRITES.................................................................................................. */
+.sprites {
+    display:flex;
+    margin-bottom: 55px;
+}
+.sprite-item{
+    flex:1;
+    text-align: center;
+    border-right: 1px solid var(--maincolor);
+}
+.sprite-item:last-child{
+    border:0;
+}
+.sprite-info h3{
+    font-size: 17px;
+}
+.sprite-info span{
+    color: gray;
+    font-size: 15px;
+}
+.sprite-icon{
+    background-image: url(../images/service-icon.png);
+    height: 55px;
+    background-repeat: no-repeat;
+}
+.sprite-icon-1{
+background-position: center 5px;
+transition: all .5s;
+}
+.sprite-item:hover .sprite-icon-1{
+    background-position: center -86px;
+}
+.sprite-icon-2{
+background-position: center -180px;
+transition: all .5s;
+}
+.sprite-item:hover .sprite-icon-2{
+    background-position: center -273px;
+}
+.sprite-icon-3{
+background-position: center -366px;
+transition: all .5s;
+}
+.sprite-item:hover .sprite-icon-3{
+    background-position: center -455px;
+}
+.sprite-icon-4{
+background-position: center -549px;
+transition: all .5s;
+ }
+ .sprite-item:hover .sprite-icon-4{
+    background-position: center -639px;
+}
+.sprite-icon-5{
+background-position: center -734px;
+transition: all .5s;
+}
+.sprite-item:hover .sprite-icon-5{
+    background-position: center -826px;
+}
+/* PRODUCTS.................................................................................................. */
+.list-product{
+    display: flex;
+    justify-content: center;
+}
+.list-product li{
+    margin: 10px 20px;
+}
+.products-items{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ grid-gap:20px;
+ margin: 30px 0px;
+}
+.product-img{
+ position: relative;
+}
+.product-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform:scalex(0);
+    opacity: 0.9;
+    transition: transform 0.2s;
+}
+.product-overlay ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.product-overlay ul li{
+    width: 40px;
+    height: 40px;
+    background-color: var(--maincolor);
+    display: inline-block;
+    text-align: center;
+}
+.product-overlay ul li i{
+    color: #fff;
+    line-height: 40px;
+}
+.product-item:hover .product-overlay{
+    transform: scalex(1);
+}
+.product-item i.active{
+    color: yellow;
+}
+.product-info span{
+    display: block;
+    margin: 5px 0;
+}
+.product-info i{
+    margin-top: 10px;
 }
 
-.links .facebook{
-    font-size: 30px;
-}
-.links .linkedin{
-    font-size: 30px;
-}
-.links .twitter{
-    font-size: 30px;
-}
-.links .instagram{
-    font-size: 30px;
-}
+
+
+
+
+
